@@ -20,10 +20,10 @@ public class CocktailSort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num;
-        System.out.print("Digite o tamanho do vetor:");
+        System.out.print("Enter the size of the vector:");
         num = sc.nextInt();
         int vetor[] = new int[num];
-        System.out.print("Digite os valores do vetor: ");
+        System.out.print("Imput the values in the vector: ");
         for(int i = 0; i < num; i++)  {
         vetor[i] = sc.nextInt();
         }
